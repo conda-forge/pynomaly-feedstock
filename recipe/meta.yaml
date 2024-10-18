@@ -1,5 +1,5 @@
 {% set name = "pynomaly" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyNomaly-{{ version }}.tar.gz
-  sha256: 8bf89d904eccccde581fc27d90295bb4a7e9de6cc3a2dd726fdd79df8678e0bd
+  sha256: 90c5e3b58fa3dc144cdcb145afdecb212131e269a5be67173293e18acdd73c6f
 
 build:
   noarch: python
