@@ -32,7 +32,9 @@ tests:
       imports:
         - PyNomaly
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: "A Python 3 implementation of LoOP: Local Outlier Probabilities."
